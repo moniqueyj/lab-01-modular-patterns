@@ -1,8 +1,10 @@
 'use strict';
 
-module.exports = function(name){
+exports.greet = function(name){
   const input = name || 'yunjoo' ;
-  return 'Hello ' + input;
+  return 'hello ' + input;
 };
-process.argv[2];
-  
+//
+// greet();
+// exports.greet = greet;
+// // greeting(process.argv[2]);
